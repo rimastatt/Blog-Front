@@ -1,0 +1,99 @@
+{
+  "common": {
+    "username": "Username",
+    "password": "Password",
+    "submit": "Submit"
+  },
+  "login-form": {
+    "username": "Username",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "email": "Email address",
+    "age": "Age",
+    "policy": "Privacy policy",
+    "register": "Register form"
+  },
+  "article-form": {
+    "title": "Title",
+    "theme": "Theme",
+    "description": "Description",
+    "text": "Text",
+    "tag": "Tag",
+    "file": "File"
+  },
+  "header": {
+    "greetings": "Greetings, ",
+    "logout": "Logout",
+    "userInfo": "User info",
+    "login": "Login",
+    "newAccount": "New account",
+    "forgotPassword": "Forgot password?",
+    "themes": "Themes",
+    "articles": "Articles",
+    "trips": "Trips",
+    "createArticle": "New article"
+  },
+  "article-list": {
+    "title": "Recent articles",
+    "readMore": "Read more",
+    "search": "Search",
+    "topics": "Topics"
+  },
+  "themelist": {
+    "welcome": "Welcome! Choose a location.",
+    "readMore": "Read More"
+  },
+  "article-page": {
+    "leaveComment": "Leave your comment here",
+    "plzlogin": "Please login to see and post comments",
+    "login": "Login here",
+    "submit": "Submit",
+    "continue": "Continue to book this trip!"
+  },
+  "booking": {
+    "location": "Location",
+    "checkIn": "Check-in date",
+    "checkOut": "Check-out date",
+    "adults": "Adults",
+    "children": "Children",
+    "price": "Price",
+    "travelClass": "Travel class",
+    "email": "Email address",
+    "book-trip": "Book a Trip!",
+    "book": "Book",
+    "username": "Username",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "bookinginfo": "Booking information",
+    "accinfo": "Account information"
+  },
+  "login": {
+    "welcome": "Welcome to HappyVacation. ",
+    "welcome2": " Please Sign-In!",
+    "username": "Username",
+    "password": "Password",
+    "login": "Login",
+    "notRegistered": "Not registered? ",
+    "createAcc": "Create an account."
+  },
+  "footer": {
+    "additionalInfo": "Additional info",
+    "aboutUs": "About us",
+    "gallery": "Gallery",
+    "offices": "Offices",
+    "career": "Career",
+    "officialWebs": "Our official websites",
+    "copyrights": "Copyrights",
+    "officialNr": "Official number",
+    "email": "Email address",
+    "lang":"Languages"
+  },
+  "validations": {
+    "default": "Field is not valid",
+    "required": "Field is required",
+    "typeError": "Bad value type",
+    "numberMin": "Value of \"$t({{label}})\" must be bigger than {{min}}"
+  }
+}

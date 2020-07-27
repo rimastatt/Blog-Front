@@ -1,0 +1,73 @@
+.page-imagez {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin:0;
+    padding: 0;
+}
+
+.destination-text{
+    margin-top: -600px;
+    margin-left: 530px;
+    text-align: center;
+    position: absolute;
+}
+
+#trip-subname{
+    color: #fff;
+}
+
+#trip-name{
+    font-size: 50px;
+}
+
+.trip-description-header{
+    font-size: 30px;
+    text-align: center;
+    margin: 50px;
+}
+
+.trip-description{
+    font-size: 18px;
+    margin-left: 30px;
+    line-height: 1.5;
+    margin-right: 30px;
+}
+
+.price{
+    font-weight: bold;
+    margin-top: 40px;
+    font-size: 22px;
+    margin-left: 30px;
+}
+
+.days{
+    font-weight: bold;
+    margin-top: 40px;
+    font-size: 22px;
+    margin-left: 30px;
+}
+
+.book-button{
+    margin-top: 100px;
+    text-align: center;
+    display: block;
+    margin-bottom: 100px;
+    padding: 1rem 2rem;
+    margin-right: 250px;
+    margin-left: 250px;
+    border-radius: 2em;
+    text-decoration: none;
+    font-weight: 300;
+    color: #FFFFFF;
+    background-color: #eb7239;
+    transition: all 0.2s;
+}
+.book-button:hover{
+    background-color:#ce9f1f;
+}
+
+#book-button-id{
+    text-decoration: none;
+}

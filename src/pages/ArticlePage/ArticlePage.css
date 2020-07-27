@@ -1,0 +1,148 @@
+.image-containeris{
+    margin: 20px;
+    text-align: center;
+}
+
+.page-image{
+    width: 100%;
+    height: auto;
+}
+
+.page-date{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.page-title{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    margin-top: 15px;
+}
+
+.page-text{
+    margin-top: 20px;
+    color: black;
+    line-height: 1.5;
+}
+
+.page-tag{
+    margin-top: 60px;
+    color: #040404;
+}
+
+.purchase-button{
+    margin-left:15%;
+    margin-right:15%;
+    margin-top: 30px;
+    text-align: center;
+    display: block;
+    padding:1rem 2rem;
+    border-radius:2em;
+    text-decoration:none;
+    font-weight: 300;
+    color: #FFFFFF;
+    background-color: #4eb5f1;
+    transition: all 0.2s;
+}
+
+.purchase-button:hover{
+    background-color:#4095c6;
+}
+
+.row {
+    display: flex;
+  }
+  
+.column {
+    flex: 50%;
+}
+
+.comments{
+    margin-top: 25px;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    padding: 20px;
+}
+
+.comment-textarea{
+    resize: none;
+    padding: 20px;
+    height: 130px;
+    width: 100%;
+    border: 1px solid #F2F2F2;
+}
+
+.comment-form{
+    text-align:center;
+}
+
+#comment-section-name{
+    margin-top: 100px;
+}
+
+.comment-input-area{
+    text-align: center;
+    border: black;
+    border-style: groove;
+}
+
+.comment-button{
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.comment-block{
+    border-bottom: blue solid 2px;
+    margin-bottom: 20px;
+}
+
+#comment-name{
+    padding-top: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#comment-date{
+    font-size: 14px;
+    font-style: italic;
+}
+
+#comment-body{
+    padding: 8px 20px 0px 0px;
+}
+
+.outer-comment-block{
+    border-left: #e2a301 solid;
+    border-right: #e2a301 solid;
+    padding: 20px;
+    margin-top: 50px;
+    width: 80%;
+    margin-bottom: 100px;
+    margin-left: 10%;
+}
+
+.submit-comment-button{
+    padding: 0.5em 1.5em;
+    border-radius: 2em;
+    border-style: none;
+    font-weight: 300;
+    color: #FFFFFF;
+    background-color: #4eb5f1;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.submit-comment-button:hover{
+    background-color:#4095c6;
+}
+
+#no-comment-section{
+    text-align: center;
+    margin-top: 100px;
+    text-decoration: none;
+    color: #032569;
+    font-size: 26px;
+    margin-bottom: 100px;
+}

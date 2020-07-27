@@ -1,0 +1,143 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+#top {
+color: rgba(255, 255, 255, 0.75);
+background: #fdf5e2;
+margin: 0;
+}
+
+h3 {
+font-size: 1.35em;
+color: #fff;
+font-weight: 400;
+line-height: 1.5;
+margin: 0 0 1em 0;
+}
+
+.thumbnails {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.thumbnails .box {
+margin: 0 1em 2em 1em;
+width: 30%;
+}
+
+.box {
+border-radius: 4px;
+margin-bottom: 2em;
+background: #09537d;
+text-align: center;
+}
+
+.box .inner {
+
+    padding-right: 1.5em;
+    padding-bottom: 2rem;
+    padding-left: 1.5em;
+    width: 100% !important;
+}
+
+.image.left {
+    float: left;
+    padding: 0 1.5em 1em 0;
+    top: 0.25em;
+}
+
+.image.right {
+    float: right;
+    padding: 0 0 1em 1.5em;
+    top: 0.25em;
+}
+
+.image.fit img {
+    width: 100%;
+}
+
+.image.main {
+    display: block;
+    margin: 0 0 3em 0;
+    width: 100%;
+}
+
+.image.main img {
+    width: 100%;
+}
+
+ul.icons li {
+    display: inline-block;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 1em;
+}
+
+#main .inner {
+width: 90%;
+max-width: 80em;
+margin: 0 auto;
+}
+
+.theme-button{
+font-size: 16px;
+padding: 8px 100px;
+margin-top: 5px;
+border-radius:2em;
+box-sizing: border-box;
+text-decoration:none;
+font-weight:300;
+color:#FFFFFF;
+background-color:#e2a301;
+text-align:center;
+transition: all 0.2s;
+}
+
+.theme-button:hover{
+    background-color:#c9c501;
+}
+
+/* CAROUSELLLLL */
+.post-slider{
+    border: 1px solid red;
+
+}
+.post-slider .post-wrapper{
+    border: 1px dashed red;
+}
+
+.post-wrapper{
+    width: 84%;
+    height: 350px;
+    margin: 0px auto;
+}
+
+.post-slider .post-wrapper .post{
+    display: inline-block;
+    width: 300px;
+    height: 350px;
+}
+
+.title{
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 100px;
+    margin-top: 70px;
+    color: #0068a5;
+}
+
+.theme-description{
+    margin-bottom: 50px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.theme-name{
+    font-size: 1.35em;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.5;
+}

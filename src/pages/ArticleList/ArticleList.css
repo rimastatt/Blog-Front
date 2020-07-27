@@ -1,0 +1,170 @@
+.content{
+    width:90%;
+    margin: 30px auto 30px;
+}
+
+.content .main-content{
+    width: 70%;
+    float: left;
+}
+
+.text-input {
+    padding: .7rem 1rem;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    color: green;
+    line-height: 1.5rem;
+    border: 1px solid lightgrey;
+    font-size: 1.2em;
+}
+
+.content .main-content .post{
+    width: 95%;
+    height: 270px;
+    margin: 20px auto;
+    border-radius: 5px;
+    background: white;
+    position: relative;
+}
+
+.content .main-content .post .read-more {
+    padding:0.5em 1.5em;
+    position: absolute;
+    border-radius:2em;
+    box-sizing: border-box;
+    bottom: 10px;
+    right: 10px;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-weight: 300;
+    color: #FFFFFF;
+    background-color: #4eb5f1;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.content .main-content .post .read-more:hover{
+    background-color:#4095c6;
+}
+
+.content .main-content .post .post-image{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+
+.content .main-content .post .post-preview{
+    width: 60%;
+    padding: 10px;
+    float: right;
+}
+
+.content .main-content .recent-post-title{
+    margin: 20px;
+}
+
+.content .sidebar {
+    width:30%;
+    float:left;
+    height: 300px;
+}
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.content .sidebar .sections{
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.content .sidebar .sections.search{
+    margin-top:20px;
+}
+
+.content .sidebar .sections.topics ul{
+    margin:0px;
+    padding:0px;
+    list-style: none;
+}
+
+.content .sidebar .sections.topics ul li a{
+    display:block;
+    padding: 15px 0px 15px 0px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.post-title{
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 100px;
+    margin-top: 70px;
+    color: #0068a5;
+}
+
+.preview-title{
+    text-align: center;
+}
+
+.far-calendar{
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.preview-text{
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.btn-delete{
+    color: #FFFFFF;
+    background-color: #c41313;
+    position: absolute;
+    border-radius: 2em;
+    box-sizing: border-box;
+    bottom: 8px;
+    left: 350px;
+    padding: 0.8em 1.8em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 300;
+    transition: all 0.2s;
+    border: none;
+}
+
+.btn-delete:hover{
+    background-color:#7c0303;
+}
+
+.btn-delete:focus { 
+    outline: none; 
+}
+
+.btn-update{
+    color: #FFFFFF;
+    background-color: #035008;
+    position: absolute;
+    border-radius: 2em;
+    box-sizing: border-box;
+    bottom: 8px;
+    left: 440px;
+    padding: 0.5em 1.6em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 300;
+    transition: all 0.2s;
+    border: none;
+}
+
+.btn-delete:hover{
+    background-color:#07360a;
+}

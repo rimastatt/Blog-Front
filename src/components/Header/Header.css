@@ -1,0 +1,102 @@
+*{
+  box-sizing: border-box;
+}
+
+header{
+   background: rgb(238, 208, 109);
+   height: 66px;
+}
+
+header .logo{
+   float:left;
+   margin-left: 2em;
+}
+
+.user-hello{
+  position: absolute;
+  top: 66px;
+  right: 0px;
+  height: 40px;
+  display:none;
+}
+
+header .logo-text{
+  margin: 8px;
+}
+
+header .logo-text span{
+  color: #4eb5f1;
+  font-family: Helvetica;
+}
+
+header ul li {
+  float: left;
+  position: relative;
+  font-weight: bold;
+  font-size:18px;
+}
+
+header ul li ul{
+  position: absolute;
+  width: -webkit-fill-available;
+  height: 50px;
+  display: none;
+}
+
+header ul li:hover ul{
+  display:block;
+}
+
+header ul li ul li{
+  width: 100%;
+}
+
+header ul{
+  float: right;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.navbar_li_a{
+  display: block;
+  padding: 21px;
+  font-size: 1.1em;
+  text-decoration: none;
+}
+
+.navbar_li_a:hover{
+  background: #e2a301;
+  transition: 0.5s;
+}
+
+header *{
+  color:whitesmoke;
+  height: inherit;
+}
+
+.drop_link{
+  padding-left: 10px;
+  padding-right: 10px;
+  color: whitesmoke;
+  background: rgba(238, 208, 109, 0.418);
+  padding-top: 6px;
+  text-align: center;
+}
+
+#drop-down-icon{
+  font-size: .8em;
+  margin-left:5px;
+}
+
+#color-yellow{
+  color: #e2a301
+}
+
+#color-blue{
+  color: #4ab1ec;
+}
+
+#user-info{
+  text-align: center;
+}

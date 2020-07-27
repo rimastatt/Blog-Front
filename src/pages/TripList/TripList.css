@@ -1,0 +1,14 @@
+.minimum{
+        overflow: hidden;
+        max-width: 50ch;
+        max-height: 14ch
+}
+
+.margins{
+    margin-left: 350px;
+    margin-bottom: 20px;
+}
+
+#totalprice{
+    font-weight: bold;
+}

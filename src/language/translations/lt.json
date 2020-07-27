@@ -1,0 +1,97 @@
+{
+  "common": {
+    "submit": "Kaina"
+  },
+  "login-form": {
+    "username": "Vartotojo vardas",
+    "password": "Slaptažodis",
+    "confirmPassword": "Patvirtinti slaptažodį",
+    "firstName": "Vardas",
+    "lastName": "Pavardė",
+    "email": "El. paštas",
+    "age": "Amžius",
+    "policy": "Privatumo politika",
+    "register": "Registracijos forma"
+  },
+  "article-form": {
+    "title": "Pavadinimas",
+    "theme": "Tema",
+    "description": "Aprašymas",
+    "text": "Pilnas tekstas",
+    "tag": "Tag'as",
+    "file": "Failas"
+  },
+  "article-page":{
+    "leaveComment":"Palikite komentarą",
+    "plzlogin":"Prašome prisijungti kad pamatyti komentarus.",
+    "login":"Prisijungti čia.",
+    "submit":"Siųsti",
+    "continue":"Tęsti kelionės rezervacija!"
+  },
+  "header": {
+    "greetings": "Sveiki, ",
+    "logout": "Atsijungimas",
+    "userInfo": "Vartotojo info",
+    "login": "Prisijungimas",
+    "newAccount": "Nauja paskyra",
+    "forgotPassword": "Pamiršote slaptažodį?",
+    "themes": "Temos",
+    "articles": "Straipsniai",
+    "trips": "Kelionės",
+    "createArticle": "Sukurti straipsnį"
+  },
+  "login": {
+    "welcome": "Sveiki atvykę į HappyVacation.",
+    "welcome2": " Prašome prisijungti!",
+    "username": "Vartotojo vardas",
+    "password": "Slaptažodis",
+    "login": "Prisijungti",
+    "notRegistered": "Nesate prisiregistravęs? ",
+    "createAcc": "Susikurti paskyrą."
+  },
+  "article-list": {
+    "title": "Naujausi įrašai",
+    "readMore": "Skaityti...",
+    "search": "Paieška",
+    "topics": "Tema"
+  },
+  "themelist": {
+    "welcome": "Sveiki atvykę! Pasirinkite lokaciją.",
+    "readMore": "Skaityti"
+  },
+  "booking": {
+    "location": "Lokacija",
+    "checkIn": "Atvykimo data",
+    "checkOut": "Išvykimo data",
+    "adults": "Suauge",
+    "children": "Vaikai",
+    "price": "Kaina",
+    "travelClass": "Klasė",
+    "email": "El. paštas",
+    "book-trip": "Rezervuok kelionę!",
+    "book": "Rezervuoti",
+    "username": "Vartotojo vardas",
+    "firstName": "Vardas",
+    "lastName": "Pavardė",
+    "bookinginfo": "Kelionių informacija",
+    "accinfo": "Paskyros informacija"
+  },
+  "footer": {
+    "additionalInfo": "Papildoma informacija",
+    "aboutUs": "Apie mus",
+    "gallery": "Galerija",
+    "offices": "Ofisai",
+    "career": "Karjera",
+    "officialWebs": "Mūsų oficialūs puslapiai",
+    "copyrights": "Autorinės teisės",
+    "officialNr": "Oficialus numeris",
+    "email": "Pašto adresas",
+    "lang":"Kalbos"
+  },
+  "validations": {
+    "default": "Laukas yra nevalidus",
+    "required": "Laukas yra privalomas",
+    "typeError": "Blogas reikšmės tipas",
+    "numberMin": "Lauko \"$t({{label}})\" reikšmė privalo būti didesnė nei {{min}}"
+  }
+}
